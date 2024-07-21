@@ -1,0 +1,112 @@
+:root {
+    --contentWidth: 90%;
+
+    --darkBackground: #1B1F1A;
+    --lightBackground: #30362f;
+
+    --darkGrey: #626262;
+
+
+    --defaultHighlightColor: #FF5722;
+    --darkHighlightColor: #e64a19;
+
+    --textDefaultColor: #AAA; 
+    --buttonTextColor: #000;
+    --buttonBackgroundColor: #FF5722;
+
+  }
+  
+
+body {
+    font-size: 1.2rem;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: var(--textDefaultColor); /* Cor dos textos */
+    background-color: var(--darkBackground);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--lightBackground);
+    padding: 1em 1em;
+    width: var(--contentWidth);
+    margin: auto;
+    border-radius: 0 0 250px 0;
+}
+
+nav {
+    margin-bottom: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--textDefaultColor);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.selected {
+    border-bottom: 0.3rem solid var(--defaultHighlightColor);
+    color: var(--defaultHighlightColor);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 0 2em;
+    width: var(--contentWidth);
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+img {
+    float: left;
+    margin-right: 3rem;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    border: 5px solid #626262; /* Borda das imagens */
+    margin-bottom: 1em;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+button {
+    background-color: var(--buttonBackgroundColor); /* Cor dos botões */
+    color: var(--buttonTextColor); 
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--darkHighlightColor); /* Tom mais escuro para hover */
+}
+
+footer {
+    background-color: #626262; /* Cor do rodapé */
+    color: #AAAAAA;
+    text-align: center;
+    padding: 1em 0;
+}
