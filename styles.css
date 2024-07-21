@@ -105,7 +105,7 @@ button:hover {
 }
 
 footer {
-    background-color: #626262; /* Cor do rodapé */
+    background-color: var(--lightBackground);
     color: #AAAAAA;
     text-align: center;
     padding: 1em 0;
